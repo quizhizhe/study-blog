@@ -1,6 +1,15 @@
-remote_theme: pages-themes/leap-day@v0.2.0
-plugins:
-- jekyll-remote-theme
+title: Study Blog
+description: 学习随笔
+google_analytics:
+github:
+    theme: https://github.com/pages-themes/leap-day
+    me: https://github.com/quizhizhe/study-blog
+theme: jekyll-theme-leap-day
 
-title: [The title of your site]
-description: [A short description of your site's purpose]
+defaults:
+  - scope:
+      path: "" # An empty string here means all files in the project
+      type: posts
+    values:
+      layout: default
+      permalink: /posts/:title/
